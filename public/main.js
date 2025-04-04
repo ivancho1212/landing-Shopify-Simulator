@@ -16,7 +16,7 @@
   \******************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\n  background-color: black;\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n  color: white;\n}\n\n.topbar {\n  background-color: rgb(47, 197, 165);\n  color: black;\n  overflow: hidden;\n  padding: 8px 0;\n  border-bottom: 1px solid #333;\n  position: relative;\n}\n\n.topbar__wrapper {\n  overflow: hidden;\n  width: 100%;\n}\n\n.topbar__content {\n  display: flex;\n  width: fit-content;\n  animation: marquee 50s linear infinite;\n  font-size: 14px;\n  white-space: nowrap;\n}\n\n.topbar__content span {\n  display: inline-block;\n  padding-right: 2rem;\n}\n\n@keyframes marquee {\n  0% {\n    transform: translateX(0%);\n  }\n  100% {\n    transform: translateX(-50%);\n  }\n}\n@media (max-width: 768px) {\n  .topbar__content {\n    font-size: 12px;\n  }\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://shopify-simulator/./src/styles.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body, * {\n  font-family: \"Poppins\", sans-serif !important;\n}\n\nbody {\n  background-color: black;\n  margin: 0;\n  padding: 0;\n  color: white;\n}\n\n.topbar {\n  background-color: rgb(47, 197, 165);\n  color: black;\n  overflow: hidden;\n  padding: 8px 0;\n  border-bottom: 1px solid #333;\n  position: relative;\n}\n\n.topbar__wrapper {\n  overflow: hidden;\n  width: 100%;\n}\n\n.topbar__content {\n  display: flex;\n  width: fit-content;\n  animation: marquee 50s linear infinite;\n  font-size: 14px;\n  white-space: nowrap;\n}\n\n.topbar__content span {\n  display: inline-block;\n  padding-right: 2rem;\n}\n\n@keyframes marquee {\n  0% {\n    transform: translateX(0%);\n  }\n  100% {\n    transform: translateX(-50%);\n  }\n}\n@media (max-width: 768px) {\n  .topbar__content {\n    font-size: 12px;\n  }\n}\n.header {\n  font-family: sans-serif !important;\n  position: sticky;\n  top: 0;\n  width: 100%;\n  background-color: rgba(255, 255, 255, 0.1);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n  z-index: 1000;\n  padding: 10px 20px;\n  transition: background-color 0.3s ease-in-out;\n}\n.header__container {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  max-width: 1200px;\n  margin: auto;\n  flex-wrap: wrap;\n}\n.header__logo img {\n  height: 50px;\n}\n@media (max-width: 768px) {\n  .header__logo img {\n    height: 40px;\n  }\n}\n.header__payments {\n  display: flex;\n  gap: 12px;\n  align-items: center;\n  justify-content: center;\n}\n.header .header__payments-label {\n  font-weight: 500;\n  font-size: 12px;\n  color: #d3d3d3;\n  margin-right: 10px;\n}\n.header__payment-icon {\n  width: 30px;\n  height: 30px;\n  background-color: rgba(255, 255, 255, 0.945);\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n}\n.header__payment-icon img {\n  width: 80%;\n  height: 80%;\n  object-fit: contain;\n  display: block;\n}\n.header__links {\n  display: flex;\n  align-items: center;\n  gap: 15px;\n}\n.header__links a {\n  color: white;\n  text-decoration: none;\n  font-weight: bold;\n  font-size: 14px;\n}\n.header__links a:hover {\n  text-decoration: underline;\n}\n.header__links .header__cart {\n  font-size: 20px;\n  cursor: pointer;\n  background-color: rgb(113, 71, 190);\n  color: white;\n  padding: 4px 4px;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  min-width: 30px;\n  min-height: 30px;\n}\n\n@media (max-width: 768px) {\n  .header__container {\n    flex-direction: column;\n    align-items: flex-start;\n    gap: 10px;\n  }\n  .header__payments {\n    justify-content: center;\n    flex-wrap: wrap;\n  }\n  .header__links {\n    width: 100%;\n    justify-content: space-between;\n  }\n  .header__payments-box {\n    width: 100%;\n    justify-content: center;\n    margin-top: 10px;\n  }\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://shopify-simulator/./src/styles.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +116,47 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n\n\nconsole.log('Gradiweb is online!!!');\n\n\n//# sourceURL=webpack://shopify-simulator/./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n/* harmony import */ var _assets_visa_webp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/visa.webp */ \"./assets/visa.webp\");\n/* harmony import */ var _assets_master_card_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/master-card.webp */ \"./assets/master-card.webp\");\n/* harmony import */ var _assets_paypal_webp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/paypal.webp */ \"./assets/paypal.webp\");\n/* harmony import */ var _assets_logo_webp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/logo.webp */ \"./assets/logo.webp\");\n\n\n\n\n\n\n\nconsole.log('Gradiweb is online!!!');\n\ndocument.querySelector('.header__logo img').src = _assets_logo_webp__WEBPACK_IMPORTED_MODULE_4__;\n\ndocument.querySelector('.header__payments').innerHTML = `\n  <span class=\"header__payments-label\">Método de pago</span>\n  <div class=\"header__payment-icon\"><img src=\"${_assets_visa_webp__WEBPACK_IMPORTED_MODULE_1__}\" alt=\"Visa\" /></div>\n  <div class=\"header__payment-icon\"><img src=\"${_assets_master_card_webp__WEBPACK_IMPORTED_MODULE_2__}\" alt=\"Mastercard\" /></div>\n  <div class=\"header__payment-icon\"><img src=\"${_assets_paypal_webp__WEBPACK_IMPORTED_MODULE_3__}\" alt=\"Paypal\" /></div>\n`;\n\n\ndocument.querySelectorAll('.scroll-link').forEach(link => {\n    link.addEventListener('click', e => {\n      e.preventDefault();\n      const target = document.querySelector(link.getAttribute('href'));\n      if (target) {\n        target.scrollIntoView({ behavior: 'smooth' });\n      }\n    });\n  });\n  \n\n//# sourceURL=webpack://shopify-simulator/./src/app.js?");
+
+/***/ }),
+
+/***/ "./assets/logo.webp":
+/*!**************************!*\
+  !*** ./assets/logo.webp ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"assets/logo.webp\";\n\n//# sourceURL=webpack://shopify-simulator/./assets/logo.webp?");
+
+/***/ }),
+
+/***/ "./assets/master-card.webp":
+/*!*********************************!*\
+  !*** ./assets/master-card.webp ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"assets/master-card.webp\";\n\n//# sourceURL=webpack://shopify-simulator/./assets/master-card.webp?");
+
+/***/ }),
+
+/***/ "./assets/paypal.webp":
+/*!****************************!*\
+  !*** ./assets/paypal.webp ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"assets/paypal.webp\";\n\n//# sourceURL=webpack://shopify-simulator/./assets/paypal.webp?");
+
+/***/ }),
+
+/***/ "./assets/visa.webp":
+/*!**************************!*\
+  !*** ./assets/visa.webp ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"assets/visa.webp\";\n\n//# sourceURL=webpack://shopify-simulator/./assets/visa.webp?");
 
 /***/ })
 
@@ -185,6 +225,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		__webpack_require__.p = "/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
