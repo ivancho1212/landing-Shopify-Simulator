@@ -1,0 +1,49 @@
+<footer class="footer">
+  <div class="footer__container">
+
+    <!-- Columna izquierda: Logo y texto desde settings -->
+    <div class="footer__left">
+      <div class="footer__logo">
+        <img src="#" alt="Logo" />
+      </div>
+         <p class="footer__text">{{ sections.footer.settings.logo_text | escape }}</p>
+      </div>
+
+    <!-- Columna central: Links desde settings.links -->
+    <div class="footer__center">
+      <div class="footer__links">
+        {% assign primary_links = sections.footer.settings.links | slice: 0, 4 %}
+        {% for link in primary_links %}
+          <a href="{{ link.url }}">{{ link.label | upcase }}</a>
+        {% endfor %}
+      </div>
+
+      <!-- Links secundarios -->
+      <div class="footer__secondary-links">
+        {% assign secondary_links = sections.footer.settings.links | slice: 4, 3 %}
+        {% for link in secondary_links %}
+          <a href="{{ link.url }}">{{ link.label | upcase }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Columna derecha: Newsletter + redes sociales -->
+    <div class="footer__right">
+        <p class="footer__newsletter-label">Envía tu correo para suscribirse</p>
+     <div class="footer__newsletter-wrapper">
+            <input type="email" placeholder="Tu correo electrónico" class="footer__newsletter" />
+            <button class="footer__newsletter-btn" type="submit">➤</button>
+      </div>      
+
+      <div class="footer__social">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">X</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+     </div>
+
+
+  </div>
+</footer>
+
+      
