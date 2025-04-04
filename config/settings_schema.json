@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Featured Products",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading Text"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color"
+      }
+    ]
+  },
+  {
+    "name": "Top Bar",
+    "settings": [
+      {
+        "id": "text",
+        "type": "text",
+        "label": "Texto de la barra superior",
+        "default": "¡Bienvenido a nuestra tienda en línea!"
+      }
+    ]
+  }
+]
+

@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+.top-bar {
+  background-color: rgb(125, 47, 197);
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px 0;
+  border-bottom: 1px solid #333;
+  position: relative;
+}
+
+.top-bar__marquee {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 15s linear infinite;
+  font-size: 14px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .top-bar__marquee {
+    font-size: 12px;
+  }
+}
+
