@@ -346,3 +346,70 @@ body {
     }
   }
 }
+
+
+.hero-banner {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Alinear hacia abajo */
+  align-items: center;
+  padding-bottom: 150px; /* Espacio entre el botón y el borde */
+  text-align: center;
+}
+
+.hero-banner__content {
+  z-index: 1;
+}
+
+.hero-banner__button {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 50px; /* Botón más ancho */
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+  font-size: 1.5rem;
+  min-width: 200px;
+  display: inline-block;
+
+  &:hover {
+    background-color: rgb(113, 71, 190);
+  }
+}
+
+.hero-banner__marquee {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  white-space: nowrap;
+}
+
+.marquee__inner {
+  display: inline-block;
+  animation: scroll-marquee 30s linear infinite;
+}
+
+.marquee__inner span {
+  display: inline-block;
+  margin-right: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@keyframes scroll-marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

@@ -3,12 +3,17 @@ import visa from '../assets/visa.webp';
 import mastercard from '../assets/master-card.webp';
 import paypal from '../assets/paypal.webp';
 import logo from '../assets/logo.webp';
+import heroBannerImg from '../assets/homepage_bottom_banner.avif';
+
 
 console.log('Gradiweb is online!!!');
 
 // Asignar logo en el header y el footer
 document.querySelector('.header__logo img').src = logo;
 document.querySelector('.footer__logo img').src = logo;
+
+document.querySelector('.hero-banner').style.backgroundImage = `url(${heroBannerImg})`;
+
 
 // Asignar métodos de pago en el header
 document.querySelector('.header__payments').innerHTML = `

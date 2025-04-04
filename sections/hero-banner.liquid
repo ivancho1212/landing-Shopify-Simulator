@@ -1,0 +1,17 @@
+<section class="hero-banner" style="background-image: url('{{ 'homepage_bottom_banner.avif' | asset_url }}');">
+  <div class="hero-banner__content">
+    <a href="{{ settings['hero-banner'].settings.button_link }}" class="hero-banner__button">
+      {{ settings['hero-banner'].settings.button_text }}
+    </a>
+  </div>
+
+  <div class="hero-banner__marquee">
+  <div class="marquee__inner">
+    {% assign repeat = 10 %}
+    {% for i in (1..repeat) %}
+      <span>{{ settings['hero-banner'].settings.marquee_text }}</span>
+    {% endfor %}
+  </div>
+</div>
+
+</section>
