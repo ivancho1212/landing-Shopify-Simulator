@@ -215,15 +215,14 @@ body {
   padding-left: 20px; /* Ajusta este valor hasta que se vea alineado */
 }
 
-
-
   /* CENTRO: Links principales y secundarios */
   &__center {
     display: flex;
     flex-direction: column;
     align-items: center; /* CORRECTO */
-}
+    margin-top: 15px; // Puedes ajustar este valor según cuánto quieras que baje
 
+}
 
   &__links {
     display: flex;
@@ -272,7 +271,7 @@ body {
   }
 
   &__newsletter-label {
-    font-size: 0.85em; /* Reducido */
+    font-size: 0.85em;
     margin-bottom: 5px;
   }
 
@@ -280,7 +279,7 @@ body {
     position: relative;
     display: flex;
     align-items: right;
-    background-color: rgb(113, 71, 190); /* Fondo morado */
+    background-color: rgb(113, 71, 190);
     border-radius: 8px;
     padding: 5px;
   }
