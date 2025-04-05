@@ -11,10 +11,10 @@ body {
 }
 
 .topbar {
-  background-color: rgb(47, 197, 165);
-  color: black;
+  background-color:rgb(113, 71, 190);
+  color: white;
   overflow: hidden;
-  padding: 8px 0;
+  padding: 4px 0;
   border-bottom: 1px solid #333;
   position: relative;
 }
@@ -28,7 +28,7 @@ body {
   display: flex;
   width: fit-content;
   animation: marquee 50s linear infinite;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
 }
 
