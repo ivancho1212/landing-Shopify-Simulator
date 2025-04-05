@@ -390,17 +390,20 @@ body {
   background: rgba(0, 0, 0, 0.6);
   color: white;
   white-space: nowrap;
+  height: 4rem; 
+  display: flex; 
+  align-items: center; 
 }
 
 .marquee__inner {
   display: inline-block;
-  animation: scroll-marquee 30s linear infinite;
+  animation: scroll-marquee 50s linear infinite;
 }
 
 .marquee__inner span {
   display: inline-block;
   margin-right: 2rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
 }
