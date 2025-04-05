@@ -20,7 +20,7 @@
     "title": "Shuffle Essentials",
     "price": 29.99,
     "tags": ["accessories", "daily"],
-    "image": "waifu_body_pillow.avif",
+    "image": "shuffle_hat_purple.avif",
     "description": "Your daily essential accessory set."
   },
   {
@@ -76,7 +76,7 @@
     "title": "Waifu Body Pillow",
     "price": 89.99,
     "tags": ["home", "decor"],
-    "image": "waifu_body_pillow.avif",
+    "image": "shuffle_crewneck_black.avif",
     "description": "Comfortable body pillow with a unique design."
   }
 ]

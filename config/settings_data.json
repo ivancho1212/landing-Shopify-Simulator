@@ -5,13 +5,6 @@
     }
   },
   "sections": {
-    "featured-products": {
-      "type": "featured-products",
-      "settings": {
-        "heading": "Our Featured Products",
-        "background_color": "#ffffff"
-      }
-    },
     "hero-banner": {
       "type": "hero-banner",
       "settings": {
@@ -19,6 +12,19 @@
         "button_link": "/collections/all",
         "marquee_text": "Free Shipping on Orders Over $50",
         "background_image": "hero_banner_img.avif"
+      }
+    },
+    "featured-carousel": {
+      "type": "featured-carousel",
+      "settings": {
+        "heading": "Our Featured Products"
+      }
+    },
+    "featured-products": {
+      "type": "featured-products",
+      "settings": {
+        "heading": "Our Featured Products",
+        "background_color": "#ffffff"
       }
     },
     "footer": {
@@ -36,6 +42,5 @@
         ]
       }
     }
-
   }
 }
