@@ -1,25 +1,28 @@
 <header class="header" id="main-header">
   <div class="header__container">
-    
-    <!-- Columna izquierda: Logo -->
+    <!-- Menú hamburguesa -->
+    <button class="hamburger" id="hamburger-btn" aria-label="Menú">☰</button>
+
+    <!-- Logo centrado -->
     <div class="header__logo">
-    <img src="#" alt="Logo" />
+      <img src="#" alt="Logo" />
     </div>
 
-    <!-- Columna central: Medios de pago (se rellenará con JS) -->
+    <!-- Métodos de pago -->
     <div class="header__payments-box">
-        <div class="header__payments">
-          <span class="header__payments-label">Método de pago</span>
-            <!-- Las imágenes serán inyectadas desde app.js -->
-        </div>
+      <div class="header__payments">
+        <span class="header__payments-label">Método de pago</span>
+        <!-- Imágenes inyectadas -->
+      </div>
     </div>
 
-    <!-- Columna derecha: Links + carrito -->
-    <div class="header__links">
-      <a href="#featured-products" class="scroll-link">All Products</a>
-      <a href="#collections" class="scroll-link">Collections</a>
+    <!-- Enlaces + carrito -->
+    <div class="header__actions">
+      <div class="header__links" id="mobile-menu">
+        <a href="#featured-products" class="scroll-link">All Products</a>
+        <a href="#collections" class="scroll-link">Collections</a>
+      </div>
       <span class="header__cart">🛒</span>
     </div>
-
   </div>
 </header>
