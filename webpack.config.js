@@ -25,7 +25,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: 'config/settings_data.json', to: 'settings_data.json' },
-        { from: 'assets', to: 'assets' }, 
+        { from: 'data/collections.json', to: 'data/collections.json' },
       ],
     }),
   ],
